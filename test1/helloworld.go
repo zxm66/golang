@@ -6,6 +6,37 @@ import (
 )
 
 func main() {
+
+		s:="hello world ";
+		x := 10;
+		// 流程控制语句
+
+
+
+		//for {
+			fmt.Println("死循环");
+		//}
+		// go 语言中只有一个for循环 
+		for x > 0{
+				x -- ;
+				fmt.Println("this is hello world");
+		}
+
+		// if 条件控制语句
+		if len(s) ==  11 {
+				fmt.Println("this string's len is 11");
+
+		}else{
+				
+				fmt.Println("this string's len is not 11");
+		}
+		for i := 0; i < len(s); i++ {
+		    fmt.Printf("%c\n",s[i]);
+			fmt.Println(s[i]);
+		}
+		for i := 0; i < 10; i++ {
+			fmt.Println("hello world");
+		}
 		fmt.Println(helloworld());
 		fmt.Println(sayHelloWorld());
 		var_test1();
