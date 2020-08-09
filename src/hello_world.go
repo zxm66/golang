@@ -16,4 +16,3 @@ func eat() {
 	fmt.Println("this is eat method")
 
 }
-
