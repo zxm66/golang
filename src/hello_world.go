@@ -5,8 +5,12 @@ import (
 )
 
 func main() {
-	say("hello world")
-	eat()
+	var str = 1
+	if str == 2 {
+		say("hello world")
+	} else {
+		eat()
+	}
 }
 func say(str string) {
 	fmt.Println(str)
